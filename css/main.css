@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,800;1,800&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+letter-spacing: 0%;
+}
+
+body {
+
+font-family: "Source Sans 3", sans-serif;
+font-weight: 400;
+
+}
+
+a {
+text-decoration: none;
+
+}
+
+img {
+max-width: 100%;
+
+}
+
+.heroinfo {
+background: #ed9912;
+background: linear-gradient(360deg, #FFBB00 0%, #ffd000 100%);
+color:white;
+margin-left: -5%;
+width: 75%;
+height: 100%;
+padding: 76px 320px;
+text-align: left;
+position: relative;
+}
+
+.Spamton {
+color: #504F4F;
+font-weight: 400;
+font-size: 22px;
+line-height: 120%;
+letter-spacing: 0%;
+height: 152px;
+
+}
+
+.Selectors{
+border-top: #ffd000 solid 0.1px;
+padding-top: 22px;
+padding-bottom: 22px;
+}
+
+.hero_container #image1 {
+position: absolute;
+scale: 100%;
+left: 1300px;
+opacity: 1;
+top: 72px;
+}
+
+.container {
+width: 1920px;
+margin: 0px auto;
+
+}
+
+.active {
+width: 1920px;
+height: 244px;
+display: flex;
+
+}
+
+.logotype {
+position: absolute;
+left: 215px;
+}
+
+.boy {
+font-size: 18px;
+padding: 2px;
+margin: 100;
+right: 23%;
+}
+
+.woosher {
+color: #F17228;
+
+}
+
+.hero_container h1 {
+position: inherit;
+font-weight: 700;
+font-size: 88px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.coolstick {
+background: white;
+width: 55%;
+height: 50%;
+border-radius: 15px;
+margin-top: -100px;
+}
+
+.coolstick button {
+transition: all 500ms ease;
+
+}
+
+header {
+
+padding: 12px 22px;
+height: 50px;
+border: none;
+}
+
+header .logo {
+text-transform: inherit;
+font-size: 31.11px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: -2%;
+}
+
+header nav 
+{
+    width: 50%;
+
+}
+
+header nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a{
+    color: #ed9912;
+}
+
+
+header nav ul li:not(.active):not(.logotype):not(.button), a:hover {
+    border-bottom: 5px solid #F17228;
+}
+
+
+header nav ul li.buttonSearch a{
+padding: 28px 48px;
+}
+header nav ul li.buttonSearch img {
+    margin-right: 2222px;
+}
+
+
+
+
+header li.logotype {
+float: left;
+text-align: left;
+}
+
+header li.active {
+justify-content: space-between;
+}
+
+header .boy {
+position: absolute;
+left: 722px;
+}
+
+header .buttonSearch
+{
+position: absolute;
+left: 1522px;
+top: 15px;
+font-size: 19px;
+color: black;
+}
+
+header .buttonLogin
+{
+position: absolute;
+left: 85%;
+font-size: 19px;
+box-shadow: #ffd900 4px 4px 23px;
+border: #FFBB00 solid;
+margin-left: 53px;
+padding-left: 33px;
+padding-right: 33px;
+transition: all 250ms ease;
+top: 12px;
+}
+
+header .buttonLogin:hover
+{
+transform: scale(1.1);
+}
+
+
+.coolstick2 button#image-button1 {
+background: #ffe9dc left no-repeat;
+color: #F17228;
+margin-left: 20px;
+margin-top: 11px;
+border: none;
+border-radius: 4px;
+padding: 8px 45px;
+font-family: "Source Sans 3", sans-serif;
+font-weight: 700;
+cursor: pointer;
+transition: all 250ms ease;
+}
+
+.coolstick2 button#image-button1:hover {
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.coolstick2 button#image-button1:active {
+    transform:scale(0.9);
+    cursor: pointer;
+}
+
+.coolstick .button2 {
+background-color: #f7f7f7;
+color: #757575;
+border-radius: 4px;
+border: none;
+padding: 8px 45px;
+margin: 0 26%;
+position: absolute;
+right: 40%;
+bottom: 242px;
+font-family: "Source Sans 3", sans-serif;
+font-weight: 700;
+transition: all 250ms ease;
+}
+
+
+.coolstick .button2:hover {
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.coolstick .button2:active {
+    transform:scale(0.9);
+    cursor: pointer;
+}
+.coolstick input {
+margin: auto;
+border: none;
+outline: none;
+padding: 10px 24px;
+font-family: "Source Sans 3", sans-serif;
+font-weight: 400;
+transition: all 250ms ease;
+}
+
+.Selectors input.Address {
+color: #F65900;
+width: 60%;
+background: #F5F5F5;
+margin: 9px 20px;
+padding-top: 10px;
+}
+
+.Selectors input.Address:hover {
+color: #F65900;
+background: #F5F5F5;
+transform:scale(1);
+cursor: pointer;
+}
+
+.Selectors button
+{
+transition: all 250ms ease;
+
+}
+
+.coolstick .Selectors .FindFood{
+color: #ffffff;
+background: linear-gradient(97deg,rgba(255, 122, 122, 1) 0%, rgba(246, 89, 0, 1) 100%);
+border: none;
+font-family: "Source Sans 3", sans-serif;
+font-weight: 700;
+border-radius: 8px;
+height: 45px;
+width: 23%;
+cursor: pointer;
+text-align: center;
+padding-right: 23px;
+margin: 0 70%;
+transition: all 250ms ease;
+}
+
+.coolstick .Selectors .FindFood:hover {
+transform:scale(1.05);
+
+
+}
+
+.coolstick .Selectors .FindFood:active {
+transform:scale(0.9);
+
+
+}
+
+.coolstick .Selectors .FindFood img{
+padding: 0;
+padding-right: 37px;
+padding-top: 2px;
+}
+
+.FlashDeals {
+padding-top: 50px;
+
+}
+
+.FlashDeals .Deals {
+display: flex;
+scale: 80%;
+justify-content: space-between;
+width: 100%;
+padding: 20px;
+font-family: "Source Sans 3", sans-serif;
+font-weight: 700;
+}
+
+.FlashDeals .Deals span {
+display: block;
+text-align: center;
+margin-top: 10px;
+font-size: large;
+}
+
+.FlashDeals .Deals .dealnames {
+margin-right: 10px;
+padding: 8px 0;
+border-radius: 8px;
+width: 60%;
+text-align: left;
+}
+
+.FlashDeals .Deals .dealdays {
+background: #ffe9dc ;
+color: #F17228;
+margin-right: 40px;
+padding: 8px 0;
+border-radius: 8px;
+width: 60%;
+}
+
+.Guides{
+padding-top: 120px;
+background: linear-gradient(180deg,rgba(255, 250, 237, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.Guides h1{
+font-size: 50px;
+text-align: center;
+color:#F17228;
+}
+
+.features {
+
+display: flex;
+scale: 80%;
+justify-content: space-between;
+width: 100%;
+padding: 20px;
+font-family: "Source Sans 3", sans-serif;
+font-weight: 700;
+
+}
+
+.features .feature {
+scale: 80%;
+text-align: center;
+justify-content: space-between;
+width: 100%;
+padding: 20px;
+font-family: "Source Sans 3", sans-serif;
+font-weight: 700;
+}
+
+.features .feature span {
+display: block;
+text-align: center;
+margin-top: 10px;
+font-size: large;
+}
+
+.features .feature .description {
+    font-size: 33px;
+    color: #434343;
+    font-weight: 700;
+}
+
+.features .feature .altdesc {
+    color: #9E9E9E;
+    font-weight: 400;
+    padding: 0 88px;
+}
